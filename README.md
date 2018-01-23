@@ -17,4 +17,4 @@ const documentFragment = html`
 `
 ```
 
-If you write just one element inside the tagged function, it will return it (`HTMLElement`) otherwise it will return a `DocumentFragment`.
+If you write just one element inside the tagged function, it will return it (`HTMLElement`). Otherwise, it will return a `DocumentFragment`.
