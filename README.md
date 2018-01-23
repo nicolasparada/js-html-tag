@@ -11,7 +11,7 @@ const anchorElement = html`
     <a href="#!">Link</a>
 `
 
-const documentFramgent = html`
+const documentFragment = html`
     <h1>Lorem Ipsum</h1>
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt suscipit commodi ex adipisci cum nulla quidem quas et optio. Doloremque nihil eum officiis? Quae voluptate earum quos pariatur repudiandae nobis!</p>
 `
