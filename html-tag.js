@@ -16,10 +16,8 @@ const htmlValue = value => value instanceof Element
 export default function html(strings, ...values) {
     const rawStrings = strings.raw
     const template = document.createElement('template')
-    const innerHTML = values
+    template.innerHTML = values
         .reduce((acc, v, i) => acc + htmlValue(v) + rawStrings[i + 1], rawStrings[0])
         .replace(/^\s+|\s+$/g, '')
-    console.log(innerHTML)
-    template.innerHTML = innerHTML
     return template
 }
