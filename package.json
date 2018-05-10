@@ -1,6 +1,6 @@
 {
   "name": "@nicolasparada/html-tag",
-  "version": "1.2.1",
+  "version": "1.3.0",
   "description": "HTML tagged template literal",
   "main": "html-tag.js",
   "scripts": {
