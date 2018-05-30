@@ -44,9 +44,12 @@ Do:
 ```js
 html`
     <ul>
-        ${['foo', 'bar'].map(item => String.raw`
-            <li>${item}</li>
-        `)}
+        ${['foo', 'bar'].map(item => {
+            const html = String.raw
+            return html`
+                <li>${item}</li>
+            `
+        })}
     </ul>
 `
 ```
